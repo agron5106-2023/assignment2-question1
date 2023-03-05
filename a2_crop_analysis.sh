@@ -1,10 +1,10 @@
-##### Commit 5 #####
-# Question 1e: What does this commit do? and what are some potential issues with 
-#   using this approach (`sort -n`) to find out 
-#   the largest and smallest genome size?
+##### Commit 6 #####
+# Question 1f: These two commands produce exactly the same output. 
+#   Describe the different between the difference between these two approaches 
+#   (order of commands). What are the potential pros and cons of each approach?
 
-cat crop_data.csv | cut -d "," -f 4 | sort -n
-
+cat crop_data.csv | cut -d "," -f 5 | sort -n
+cat crop_data.csv | sort -n -t"," -k 5 | cut -d "," -f 5
 
 
 
