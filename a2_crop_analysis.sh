@@ -1,8 +1,9 @@
-##### Commit 1 #####
-# Question 1a: What does this commit do?
+##### Commit 2 #####
+# Purpose: Count the number of crops in this dataset.
+# Question 1b: What's wrong with these commands? How would you proposed to fix this and why?
 
-echo crop_data.csv
-cat crop_data.csv
-cat crop_data.csv | sort
+cat crop_data.csv | sort | wc -l
 
- 
+
+
+
