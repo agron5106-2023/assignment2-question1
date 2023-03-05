@@ -1,11 +1,5 @@
-##### Commit 6 #####
-# Question 1f: These two commands produce exactly the same output. 
-#   Describe the different between the difference between these two approaches 
-#   (order of commands). What are the potential pros and cons of each approach?
-
-cat crop_data.csv | cut -d "," -f 5 | sort -n
-cat crop_data.csv | sort -n -t"," -k 5 | cut -d "," -f 5
-
-
-
-
+##### Commit Final #####
+# Final output: Sort by genome size, 
+# print out in the format of "genome size_scientific name(common name)"
+# No question for this commit.
+cat crop_data.csv | tail -n +2 | sort -h -k 5 -t"," | awk -F',' '{print  $5 "_" $2 "(" $1 ")_genes:" $6}' 
