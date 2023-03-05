@@ -1,6 +1,8 @@
-##### Commit 0 #####
-# Import Data
-# We are going to assume the data is correct for now.
-# No question for this commit.
+##### Commit 1 #####
+# Question 1a: What does this commit do?
 
+echo crop_data.csv
+cat crop_data.csv
+cat crop_data.csv | sort
 
+ 
