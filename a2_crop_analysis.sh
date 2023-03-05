@@ -1,15 +1,10 @@
-##### Commit 4 #####
-# Purpose: Try to find out the largest and smallest number of genes.
-# Question 1d: What's wrong with these commands? How would you proposed to fix this and why?
+##### Commit 5 #####
+# Question 1e: What does this commit do? and what are some potential issues with 
+#   using this approach (`sort -n`) to find out 
+#   the largest and smallest genome size?
 
-# Sort by number of genes
-cat crop_data.csv | tail -n +2 | cut -d "," -f 6 | sort
+cat crop_data.csv | cut -d "," -f 4 | sort -n
 
-# Smallest number_of_genes
-cat crop_data.csv | tail -n +2 | cut -d "," -f 6 | sort | head -n 1
-
-# Largest number_of_genes
-cat crop_data.csv | tail -n +2 | cut -d "," -f 6 | sort | tail -n 1
 
 
 
