@@ -1,0 +1,12 @@
+Crop,Scientific_name,num_chromosome,genome_size,num_genes,Source
+Rice,Oryza sativa,24,373.8Mb,35223,https://www.ncbi.nlm.nih.gov/data-hub/taxonomy/4530/
+Wheat,Triticum aestivum,42,16.3Gb,155463,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4565/
+Maize,Zea mays,20,2.2Gb,49897,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4577/
+Barley,Hordeum vulgare,14,4.2Gb,58438,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4513/
+Cotton,Gossypium hirsutum,56,2.3Gb,99456,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/3635/
+Potato,Solanum tuberosum,48,705.8Mb,32875,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4113/
+Soybean,Glycine max,40,978.4Mb,59046,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/3847/
+Tomato,Solanum lycopersicum,24,827.4Mb,31217,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4081/
+Banana,Musa acuminata,33,472.2Mb,34206,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4641/
+Sugarcane,Saccharum officinarum,80,6.8Gb,NA,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/4547/
+Cassava,Manihot esculenta,36,639.6Mb,34312,https://www.ncbi.nlm.nih.gov/labs/data-hub/taxonomy/3983/
